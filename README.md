@@ -1,2 +1,4 @@
 # Android_Ideas
-Ideas for android apps i intend to implement and what i have to cover to learn to implement them
+First i have to implements a reddits comment based system
+To do that i have utilize RXJava, Kotlin and Groupie together with the reddit API
+
