@@ -1,0 +1,9 @@
+Emulator: emulator: ERROR: This AVD's configuration is missing a kernel file! Please ensure the file "kernel-qemu" is in the same location as your system image.
+
+If your Emulator fails with the above error, here is what you do.
+Browse to the location of your sdk, usually c/user/useaccount/Appdata/local/Android/sdk
+Open the system images subfolder and browse the subsequent folders till you find kernel-qemu
+Copy it
+Navigate backwards in the folder structure till you back to add-ons which is the first thing in the sdk folder.
+Open addon-google_apis-google-18 within that folder(or whatever the corresponding one is for you)
+Open images and paste it the emulator folder within that. restart android studio, hope it works, worked for me.
